@@ -2,6 +2,7 @@ import time
 import busio
 from cedargrove_nau7802 import NAU7802
 
+
 # Define the SCL and SDA pins
 SCL_PIN = 3
 SDA_PIN = 2                             

@@ -1,0 +1,2 @@
+Raw data readings (voltage vs. time) of initial test runs of DC motor on actuator. Not very good data, it was noisy since the connections between the actuator
+and valve were not extremely tight, and we were actuating the switch pretty fast back and forth so the data is not smooth.

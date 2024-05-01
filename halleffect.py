@@ -1,18 +1,16 @@
-'''
-Attempt at making a python script that will read the MIKROE Hall Effect Sensor
-Avery - 4/7/2024
+import smbus
+import time
 
+
+'''
  * CONNECTION NOTES:
  * ON HALL EFFECT SENSOR:
  * ORANGE WIRE ----> SCL PORT
  * WHITE WIRE ----> SDA PORT
  * BLACK WIRE ---> GND PORT
  * GREEN WIRE ---> 5V PORT
-
 '''
 
-import smbus
-import time
 
 # Define the I2C address of the Angle Click Hall Effect Sensor
 SENSOR_ADDRESS = 0x0c

@@ -1,0 +1,1 @@
+# Acquisition scripts import board, busio, and adafruit_ads1x15 on the Raspberry Pi.
